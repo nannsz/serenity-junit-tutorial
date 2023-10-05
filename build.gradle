@@ -32,6 +32,7 @@ dependencies {
             "org.assertj:assertj-core:${assertJVersion}",
             "org.projectlombok:lombok:${lombokVersion}",
             "ch.qos.logback:logback-classic:${logbackVersion}"
+    testImplementation 'junit:junit:4.13.1'
 }
 
 test {
